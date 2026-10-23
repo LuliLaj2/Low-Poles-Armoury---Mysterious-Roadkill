@@ -1,0 +1,73 @@
+{
+  "id": "low-poles-armoury-mysterious-roadkill",
+  "title": "Low Poles Armoury - Mysterious Roadkill",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p><span style=\"margin:0px;color:rgb(227, 227, 227);font-size:17px;font-style:normal;font-variant-ligatures:none;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(23, 23, 23);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Google Sans Flex, Google Sans, Helvetica Neue, sans-serif'\" class=\"query-text-line ng-star-inserted\">The scene features a road through the woods and the scene of an accident in which a person was hit by a wagon.  It works well as an encounter - whether your players stumbled upon the scene or the ones responsible. </span></p><p><span style=\"margin:0px;color:rgb(227, 227, 227);font-size:17px;font-style:normal;font-variant-ligatures:none;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(23, 23, 23);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Google Sans Flex, Google Sans, Helvetica Neue, sans-serif'\" class=\"query-text-line ng-star-inserted\">The map also features a version without the roadkill, which turns it into just a road in the woods with a couple of places of interest.</span></p><p><span style=\"margin:0px;color:rgb(227, 227, 227);font-size:17px;font-style:normal;font-variant-ligatures:none;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(23, 23, 23);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Google Sans Flex, Google Sans, Helvetica Neue, sans-serif'\" class=\"query-text-line ng-star-inserted\">The map also includes a small camp, a roadside shrine and a fairy circle.</span></p>",
+  "authors": [
+    {
+      "name": "Luli Laj",
+      "email": "lulilaj@tutamail.com",
+      "url": "https://www.patreon.com/cw/lpar",
+      "discord": "@luli_laj",
+      "flags": {}
+    }
+  ],
+  "url": "https://www.patreon.com/cw/lpar",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "lpar-maps",
+      "label": "LPAr - D&D Maps",
+      "path": "packs/lpar-maps",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lpar-audio",
+      "label": "LPAr  - Audio",
+      "path": "packs/lpar-audio",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lpar-description",
+      "label": "LPAr - Description",
+      "path": "packs/lpar-description",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-scene-navigation",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
