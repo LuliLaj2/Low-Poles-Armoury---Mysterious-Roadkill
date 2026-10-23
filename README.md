@@ -1,3 +1,7 @@
+Patreon: https://www.patreon.com/c/lpar
+
+License: https://www.caeora.com/content-use
+
 Mysterious Roadkill - Description
 You're on a road in the woods. And in the middle of the road, a wagon seems to have hit someone
 
